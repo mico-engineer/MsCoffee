@@ -1,0 +1,679 @@
+@charset "utf-8";
+
+@media screen and (max-width:1050px) {
+
+    *{
+        margin: 0;
+        padding:0;
+    }
+
+    .pc{
+        display: none;
+    }
+
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #f8f1e7;
+        width: 97%;
+        font-family: serif;   
+        margin: 0 auto;
+    }
+
+    .wrap{
+        overflow: hidden;
+    }
+
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .fadein {
+        opacity : 0;
+        transform: translateY(20px);
+        transition: all 1s;
+      }
+
+    header{
+        width: 100%;
+        height: 11vh;
+        z-index: 1000;
+        background-color: #f8f1e7;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    #logo{
+        visibility: hidden;
+    }
+
+    #sp-logo{
+        width: 35%;
+        margin: 80px auto 0 auto ;
+        line-height: 11vh;
+        position: fixed;
+        top: 3%;
+        left: 34%;
+    }
+
+    #sp-logo.mini{
+        width: 20%;
+        margin:  auto ;
+        transition: 1s;
+        line-height: 11vh;
+        left: 40%;
+    }
+
+    #sp-logo a img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-01,.nav-02{
+        visibility: hidden;
+        background-color: rgba(249,249,249,0.9);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 990;
+    }
+
+
+/*top-wrapperここから*/
+    .top-wrapper{
+        background-image: url("../images/coffee-shop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        height: 400px;
+        position: relative;
+        z-index: 999;
+        margin-top: 45vh;
+    }
+
+    h1{
+        color: #862141;
+        letter-spacing: 2px;
+        font-family: 'Cardo', serif;
+        font-size: 5vw;
+        position: absolute;
+        top: 20%;
+        left:5%;
+    }
+
+    h2{
+        font-family: 'Cardo', serif;
+        font-size: 3.2vw;
+        text-align: center;
+        letter-spacing: 3px;
+        margin: 10vh auto 5vh auto ;
+    }
+
+    .top-wrapper p{
+        font-size:1.3vw;
+        letter-spacing: 2px;
+        position: absolute;
+        top:40%;
+        left: 6%;
+    }
+/*ここまで*/
+
+/*Aboutus-wrapperここから*/
+.about-wrapper{
+    overflow: hidden;
+    height:auto;
+}
+
+.about-con{
+    position: relative;
+}
+
+.about-con img{
+    width: 75%;
+    height: 28vh;
+    margin: 0 auto;
+}
+
+.about-copy{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3.7vw;
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    left: 29%;
+}
+
+.about-text{
+    text-align: left;
+    margin: 3% 18%;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 24%;
+    left: 2%;
+}
+
+.testimonials{
+    width: 90%;
+    margin: 10vh auto 0 auto;
+    padding: 0;
+}
+
+.tes-con{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/realisticshots.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tes-right{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    
+}
+
+.tes01-text,.tes02-text{
+    width: 80%;
+    position: absolute;
+    top: 45%;
+    left:10%;
+    font-family: 'Cardo', serif;
+}
+
+.slide-01 img,.slide-02 img{
+    margin:0;
+    width: 100%;
+}
+
+.person{
+    margin: 0 auto;
+    color: #f8f1e7;
+    font-size: 1.7vw;
+    font-family: 'Cardo', serif;
+    letter-spacing: 1px;
+}
+
+.introduce{
+    width:80%;
+    text-align: left;
+    margin:  auto;
+    color: #f8f1e7;
+    font-size: 1.5vw;
+}
+/*ここまで*/
+
+/*menu-wrapperここから*/
+.menu-wrapper{
+    position: relative;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.memu-contents{
+    margin: 0 auto;
+}
+
+.contents-title ul{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contents-title ul li{
+    list-style-type: none;
+    margin: 0 auto;
+    width:32%;
+}
+
+.contents{
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.coffee-con,.tea-con,.desserts-con{
+    margin: 0 auto;
+    padding: 0 7px;
+    width: 35%;
+}
+
+.coffee-con li,.tea-con li,.desserts-con li{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    list-style-type: none;
+    font-size: 1.2vw;
+}
+
+.price{
+    text-align: right;
+}
+/*ここまで*/
+
+/*ボタンここから*/
+.button {
+  position: relative;
+  position: absolute;
+  top: 60%;
+  left: 6%;
+  z-index: 2;
+  border: 2px solid #862141;
+  color: #862141;
+  letter-spacing: 2px;
+  overflow: hidden;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  outline: none;
+  font-size: 1.5vw;
+}
+
+.button_menu{
+    position: relative;
+    top:100%;
+    left: 33%;
+    z-index: 2;
+    border: 2px solid #862141;
+    color: #862141;
+    overflow: hidden;
+    width: 30vw;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    outline: none;
+    margin:50px auto 0 auto;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+.button::before,
+.button_menu::before,
+.button::after,
+.button_menu::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
+    top: -100%;
+    width: 100%;
+    height: 100%;
+}
+
+.button:hover,
+.button_menu:hover {
+    color: #fff;
+}
+  
+.button:hover::after,
+.button_menu:hover::after {
+    top: 0;
+    background-color: #862141;
+}
+/*ここまで*/
+
+/*gallary-wrapperここから*/
+.gallary-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallary-contents{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    height: 115vh;
+    margin: auto;
+}
+
+.gallary-contents div{
+    flex-basis: calc(33% - 20px);
+    margin: 0 auto;
+}
+
+article {
+    width: 47%;
+    max-width: 300px;
+    height: 20vh;
+    -webkit-perspective: 1600px;
+    perspective: 1600px;
+    margin-bottom: 3vh;
+}
+
+.item{
+    /* 高さ = 100% */
+    height:100%;
+    /* 子要素の3Dの位置関係を保持 */
+    transform-style: preserve-3d;
+    /* アニメーションの時間 */
+    -webkit-transition-duration:.4s;
+    transition-duration:.4s;
+}
+
+.item-img,
+.item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 背景画像用の設定 */
+    background-size: cover;
+    background-position: 50%;
+    /* transform と transition によるチラつき防止 */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-content {
+    position: relative;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    opacity: 0.8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.item-content p{
+    position:absolute;
+    top:43%;
+    left:10%;
+    width:100%;
+    font-size:1.5vw;
+    color: #f8f1e7;
+    letter-spacing: 3px;
+}
+
+article:hover .item {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+    
+}
+
+/*ここまで*/
+
+/*location-wrapperここから*/
+.location-wrapper{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto 150px auto;
+}
+
+.location-contents{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.location-text{
+    margin :0 auto;
+    text-align: left;
+    color: #f8f1e7;
+    background-color: #862141;
+    width: 100%;
+    padding-top: 3vh ;
+}
+
+.location,.hours,.happyhour{
+    margin: auto;
+    width:85%;
+}
+
+.adress,.hours dl,.happyhour dl{
+    font-size: 2vw;
+    padding-bottom:4vh ;
+}
+
+h3{
+    letter-spacing: 3px;
+    border-bottom: 1px solid #f8f1e7;
+    width: 100%;
+    font-size: 2.5vw;
+}
+
+.map{
+    width: 100%;
+    height: 35vh;
+}
+
+
+.adress,dt,dd{
+    letter-spacing: 2px;
+}
+
+dt{
+    float: left;
+}
+
+.adress a{
+    text-decoration: none;
+    color: #000;
+}
+
+.fas{
+    margin: 0 10px;
+}
+
+.mar-10{
+    margin: 0 10px;
+}
+/*ここまで*/
+
+
+/*footerここから*/
+footer{
+    color:#f8f1e7;
+    background-color: #862141;
+    overflow: hidden;
+}
+
+.sph2{
+    margin: 5vh auto ;
+}
+
+.container{
+    position: relative;
+    width:90%;
+    margin: 0 auto;
+}
+
+.about-copy-con{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 5vw;
+    position: absolute;
+    top: 3%;
+    left: 16%;
+    color: #f8f1e7;
+}
+
+.contact-wrapper{
+    display: flex;
+    margin:40px auto;
+    border: 10px double #f8f1e7;
+}
+
+.contact{
+    width: 80%;
+    margin:  15vh auto 5vh auto;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#name,#email,#phone{
+    font-size: 2.13vw;
+    border: none;
+    outline: none;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    background-color: #862141;
+    width: 80%;
+    margin: 0 auto ;
+}
+
+.underline{
+    border-top: 1px solid #f8f1e7;
+    width: 80%;
+    margin:0 auto 30px auto ;
+}
+
+#comments{
+    font-size: 2.13vw;
+    border: none;
+    outline: none;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    background-color: #f8f1e7;
+    height: 150px;
+    margin:0 auto ;
+    width: 80%;
+}
+
+.submit{
+    width: 40%;
+    border: 1px solid #f8f1e7;
+    background-color: #862141;
+    height:40px;
+    color: #f8f1e7;
+    margin: 50px auto 0 auto;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.footer-02{
+    margin-top:50px;
+    overflow: hidden;
+}
+
+#SNS-link{
+    margin:auto 0 auto 87%;
+}
+
+#SNS-link a{
+    text-decoration: none;
+    color: #f8f1e7;
+    display: inline-block;
+    margin-left:20px ;
+    margin-top:20px ;
+}
+
+#SNS-link p{
+    width: 20%;
+    margin: 0;
+}
+
+#footer-logo{
+    width: 30%;
+    float: left;
+}
+
+.copy-right{
+    float: right;
+    font-size:14px ;
+    margin-top:50px ;
+}
+
+#footer-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/*ハンバーガーメニューここから*/
+
+#nav-toggle,
+#nav-toggle span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+}
+#nav-toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+#nav-toggle span {
+  position: absolute;
+  left: 20px;
+  top: 35px;
+  width: 100%;
+  height: 2px;
+  background-color: #862141;
+  border-radius: 2px;
+}
+#nav-toggle span:nth-of-type(1) {
+  top: 20px;
+}
+#nav-toggle span:nth-of-type(2) {
+  top: 50px;
+}
+#nav-toggle span:nth-of-type(3) {
+  bottom: 0;
+}
+
+#nav-toggle.active span:nth-of-type(1) {
+  -webkit-transform: translateY(20px) rotate(-45deg);
+  transform: translateY(20px) rotate(-45deg);
+}
+#nav-toggle.active span:nth-of-type(2) {
+  opacity: 0;
+}
+#nav-toggle.active span:nth-of-type(3) {
+  -webkit-transform: translateY(-20px) rotate(45deg);
+  transform: translateY(-20px) rotate(45deg);
+}
+
+
+#global-navi {
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .7s, visibility .5s;
+}
+
+#global-navi.open {
+    opacity: 0.9;
+    visibility: visible;
+    width: 35%;
+    background-color: #f8f1e7;
+}
+
+#global-navi.open ul li{
+    list-style-type: none;
+
+}
+
+#global-navi.open ul li a{
+    text-decoration: none;
+    color: #862141;
+    font-size: 18px;
+    display: block;
+    margin-top:30px;
+    margin-left: 30px;
+}
+
+
+}

@@ -1,0 +1,108 @@
+
+body{
+    background-color:#862141;
+    margin: 0 auto;
+    width: 97%;
+    font-family:serif;
+}
+
+h2{
+    font-family: 'Cardo', serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #f8f1e7;
+}
+
+.about-copy-con{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    color: #f8f1e7;
+}
+
+.contact-wrapper{
+    display: flex;
+    border: 10px double #f8f1e7;
+    width: 40%;
+    padding: 30px;
+    margin:0 auto 50px auto;
+}
+
+.contact-comfirm{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formtitle{
+    color: #f8f1e7;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    background-color: #862141;
+    width: 100%;
+    margin: 0 auto ;
+}
+
+.underline{
+    position: relative; 
+    border-top: 1px solid #f8f1e7;
+    width: 100%;
+    margin:0 auto 50px auto ;
+}
+
+.submit{
+    width: 30%;
+    border: 1px solid #f8f1e7;
+    background-color: #862141;
+    height:40px;
+    color: #f8f1e7;
+    font-size: 1vw;
+}
+
+form div{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+#SNS-link{
+    margin:auto 0 auto 85%;
+}
+
+#SNS-link a{
+    text-decoration: none;
+    color: #f8f1e7;
+    display: inline-block;
+    margin-left:15px ;
+    margin-top:20px ;
+}
+
+#SNS-link p{
+    width: 20%;
+    margin: 0;
+}
+
+#footer-logo{
+    width: 20%;
+    float: left;
+}
+
+.copy-right{
+    float: right;
+    font-size:14px ;
+    margin-top:50px ;
+    color: #f8f1e7;
+}
+
+#footer-logo img{
+    width: 100%;
+    height: 100%;
+}
